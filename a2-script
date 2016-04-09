@@ -1,0 +1,96 @@
+Script started on Fri 12 Feb 2016 01:00:10 PM MST
+zhaorui@ue25:~/C291/as2/as2>sqlplus zhaorui @a2-query.sql
+
+SQL*Plus: Release 12.1.0.2.0 Production on Fri Feb 12 13:00:33 2016
+
+Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+
+Enter password: 
+Last Successful login time: Fri Feb 12 2016 12:53:43 -07:00
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+
+Question 1 - zhaorui
+
+SERIAL_NO
+---------------
+20007
+20002
+20005
+20004
+
+Question 2 - zhaorui
+
+NAME
+----------------------------------------
+ADDR
+--------------------------------------------------
+Allen
+23 Ave, Edmonton
+
+
+Question 3 - zhaorui
+
+LICENCE_NO	NAME
+--------------- ----------------------------------------
+70003		Daren
+70005		Fred
+
+Question 4 - zhaorui
+
+NAME
+----------------------------------------
+Billy
+Helen
+
+Question 5 - zhaorui
+
+ SELL_YEAR TYPE_NAME  AVG(A2.SELL_PRICE)
+---------- ---------- ------------------
+      2010 Truck		    5500
+      2010 Sedan		    5000
+      2013 SUV			   10000
+      2011 SUV			    3000
+      2012 SUV			    5000
+      2010 SUV			    5750
+
+6 rows selected.
+
+Question 6 - zhaorui
+
+NAME
+----------------------------------------
+Allen
+Fred
+Officer
+
+Question 7 - zhaorui
+
+SIN		NAME
+--------------- ----------------------------------------
+ADDR
+--------------------------------------------------
+9000002 	Billy
+11111-Century Park, Edmonton
+
+
+Question 8 - zhaorui
+
+View created.
+
+Question 9 - zhaorui
+
+SIN		NAME
+--------------- ----------------------------------------
+9000001 	Allen
+9000008 	Helen
+
+SQL> exit
+Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+zhaorui@ue25:~/C291/as2/as2>exit
+exit
+
+Script done on Fri 12 Feb 2016 01:00:43 PM MST
